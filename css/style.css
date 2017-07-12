@@ -1,0 +1,87 @@
+body{
+  font-family: 'Lemonada', cursive;
+  background-image: url('https://www.dropbox.com/s/cpd1qm7lqqghjvo/File%202017-07-10%2018%2005%2020.jpeg?dl=1')
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 295px;
+  justify-content: space-between;
+}
+.centered {
+  
+ margin: auto;
+}
+
+h3 {
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+  background-color: white;
+  font-size: 12vw;
+  text-align: right;
+}
+
+
+
+.btn {
+  font-size: 200%;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 1vw;
+  padding: 0.6vw;
+  width: 11vw;
+  height: 11vw;
+}
+#clear {
+  min-width: 250px;
+  width: 11vw;
+}
+a {
+  color: #842634;
+}
+a:hover{
+  color: #ffffff;
+}
+p {
+  text-align: center;
+  font-size: 2em;
+  padding: .4em;
+  color: #842634;
+}
+.btn-success {
+  
+  background-color: #a3a3a3;
+}
+.btn-danger {
+  background-color: #841f1f;
+}
+.btn-warning {
+  background-color: #59391e;
+}
+.btn-info {
+  background-color: #13394f;
+}
+@media screen and (min-width: 480px) {
+    h3 {
+        
+  
+  font-size: 4em;
+ 
+  }
+  .btn {
+    
+    
+     max-height: 25px;
+    
+   
+  }
+}
