@@ -211,11 +211,12 @@ $(document).ready(function() {
     lastClickOp = false;
   });
   $("#equals").on("click", function(event) {
-    lastClickOp = false;
+    
     ammount = $("#me").text();
     ammount = parseFloat(ammount);
     name = event.target.id;
     processer(ammount, abyss, name);
+    lastClickOp = false;
     ammount = 0;
     abyss = 0;
     op = "none";
